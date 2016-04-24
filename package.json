@@ -1,0 +1,16 @@
+{
+  "name": "lt-fuse-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "shower-bekk": "^1.2.0",
+    "shower-core": "^2.0.6"
+  }
+}
