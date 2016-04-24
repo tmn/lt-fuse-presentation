@@ -48,6 +48,44 @@
       <img src="./images/FuseLogo.png" alt="Fuse logo" style="max-width: 280px; max-height: 280px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
     </section>
 
+    <section class="slide" id="timeline">
+      <article style="left: 150px;">
+        <header>web</header>
+      </article>
+      <article style="left: 350px;">
+        <header>native</header>
+      </article>
+      <article style="right: 350px; transform: translateX(-50%);">
+        <header>native + web</header>
+      </article>
+      <article style="right: 150px;">
+        <header>native++</header>
+      </article>
+      <span style="display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 1px; background: #01AEE1; width: 100%; z-index: 0;"></span>
+      <style>
+      #timeline article {
+        position: absolute;
+        top: 266px;
+        font-size: 20px;
+        z-index: 10;
+      }
+      #timeline article::after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #FD5058;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      </style>
+    </section>
+
+
+
     <!-- <section class="slide" id="designers-vs-developers">
       <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 45px;">
         <span style="font-family: 'Dancing Script', cursive;">Designers</span> <span style="font-size: 35px; padding: 0 8px;">vs</span> <span style="font-family: 'Audiowide', cursive;">Developers</span>
@@ -136,6 +174,10 @@
         font-size: 20px;
       }
       </style>
+    </section>
+
+    <section class="slide">
+      <h1 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 40px;">Native UI &nbsp; | &nbsp; OpenGL ES</h1>
     </section>
 
     <section class="slide">
